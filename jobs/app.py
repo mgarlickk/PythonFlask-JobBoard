@@ -1,3 +1,8 @@
+# Step 1 - Navigate to directory that python script is in (documents/github/PythonFlask-JobBoard/Jobs)
+# Step 2 - In terminal run - export FLASK_APP=app.py
+# Step 3 - In terminal run - set FLASK_APP=app.py
+# Step 4 - In terminal run - flask run
+
 from flask import Flask, render_template, g
 import sqlite3
 
